@@ -3,7 +3,7 @@
 <phpunit colors="true">
 
     <testsuites>
-        <testsuite name="TalavResourceBundle test suite">
+        <testsuite name="TalavMediaBundle test suite">
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
