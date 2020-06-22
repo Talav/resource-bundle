@@ -5,10 +5,12 @@ declare(strict_types=1);
 namespace ResourceAppBundle\Entity;
 
 use Talav\Component\Resource\Model\ResourceTrait;
+use Talav\Component\Resource\Model\Timestampable;
 
 abstract class AbstractAuthor implements AuthorInterface
 {
     use ResourceTrait;
+    use Timestampable;
 
     /**
      * @var int
